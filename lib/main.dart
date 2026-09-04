@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'screens/courses/course_list_screen.dart';
+import 'navigation/bottom_nav.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const CourseListScreen(),
+      home: const BottomNav(),
     );
   }
 }
